@@ -1,10 +1,3 @@
-[gd_scene load_steps=2 format=3 uid="uid://dihyy4dts01vn"]
-
-[ext_resource type="Texture2D" uid="uid://ud6w1mjx3364" path="res://Scheduler'sLabyrinthIcon.png" id="1_rupst"]
+[gd_scene format=3 uid="uid://dihyy4dts01vn"]
 
 [node name="Node2D" type="Node2D"]
-
-[node name="Scheduler\'sLabyrinthIcon" type="Sprite2D" parent="."]
-position = Vector2(239, 144)
-scale = Vector2(0.472656, 0.449219)
-texture = ExtResource("1_rupst")
