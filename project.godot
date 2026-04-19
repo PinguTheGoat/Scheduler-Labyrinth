@@ -13,7 +13,7 @@ config_version=5
 config/name="Scheduler's Labyrinth"
 run/main_scene="uid://dihyy4dts01vn"
 config/features=PackedStringArray("4.4", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="uid://ud6w1mjx3364"
 
 [display]
 
