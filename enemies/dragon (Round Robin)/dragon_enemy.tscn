@@ -1,0 +1,1815 @@
+[gd_scene load_steps=446 format=3 uid="uid://cl2p36knfhx76"]
+
+[ext_resource type="Script" uid="uid://dv8qhuoa87bcj" path="res://enemies/dragon (Round Robin)/scripts/dragon_enemy.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://chxbqsihgylpt" path="res://enemies/dragon (Round Robin)/sprite/Death/001.png" id="2_vkuvu"]
+[ext_resource type="Texture2D" uid="uid://x2em1cina5ab" path="res://enemies/dragon (Round Robin)/sprite/Death/002.png" id="3_efg4v"]
+[ext_resource type="Texture2D" uid="uid://qfmue453ijem" path="res://enemies/dragon (Round Robin)/sprite/Death/003.png" id="4_jx25e"]
+[ext_resource type="Texture2D" uid="uid://cvt0q5ltbnqk" path="res://enemies/dragon (Round Robin)/sprite/Death/004.png" id="5_6lg1y"]
+[ext_resource type="Texture2D" uid="uid://bewfoh2mrkrtw" path="res://enemies/dragon (Round Robin)/sprite/Death/005.png" id="6_x3wye"]
+[ext_resource type="Texture2D" uid="uid://6b5wilpkuqxk" path="res://enemies/dragon (Round Robin)/sprite/Death/006.png" id="7_k8rer"]
+[ext_resource type="Texture2D" uid="uid://crqdvfyygv8hp" path="res://enemies/dragon (Round Robin)/sprite/Death/007.png" id="8_2d2qi"]
+[ext_resource type="Texture2D" uid="uid://bhlg56plyjry8" path="res://enemies/dragon (Round Robin)/sprite/Death/008.png" id="9_nyx21"]
+[ext_resource type="Texture2D" uid="uid://dr5n563uoxstj" path="res://enemies/dragon (Round Robin)/sprite/Death/009.png" id="10_6xbt5"]
+[ext_resource type="Texture2D" uid="uid://tj0o8rjhlj4y" path="res://enemies/dragon (Round Robin)/sprite/Death/010.png" id="11_g6cch"]
+[ext_resource type="Texture2D" uid="uid://c11ef0el4mlf3" path="res://enemies/dragon (Round Robin)/sprite/Death/011.png" id="12_tcjr0"]
+[ext_resource type="Texture2D" uid="uid://bhoq2ble4w175" path="res://enemies/dragon (Round Robin)/sprite/Death/012.png" id="13_asv6c"]
+[ext_resource type="Texture2D" uid="uid://b8ska1myg3lec" path="res://enemies/dragon (Round Robin)/sprite/Death/013.png" id="14_b7tep"]
+[ext_resource type="Texture2D" uid="uid://bhfbdrkv02nhk" path="res://enemies/dragon (Round Robin)/sprite/Death/014.png" id="15_uuo6a"]
+[ext_resource type="Texture2D" uid="uid://cc5gm8bhl4uk3" path="res://enemies/dragon (Round Robin)/sprite/Death/015.png" id="16_4ogft"]
+[ext_resource type="Texture2D" uid="uid://crif27loxev2l" path="res://enemies/dragon (Round Robin)/sprite/Death/016.png" id="17_h160e"]
+[ext_resource type="Texture2D" uid="uid://c5s3sv7qw3sec" path="res://enemies/dragon (Round Robin)/sprite/Death/017.png" id="18_54hy7"]
+[ext_resource type="Texture2D" uid="uid://blu4emetv3b5o" path="res://enemies/dragon (Round Robin)/sprite/Death/018.png" id="19_f4tjd"]
+[ext_resource type="Texture2D" uid="uid://32t5d4x0rh3i" path="res://enemies/dragon (Round Robin)/sprite/Death/019.png" id="20_bnodm"]
+[ext_resource type="Texture2D" uid="uid://ttxkrpyqnige" path="res://enemies/dragon (Round Robin)/sprite/Death/020.png" id="21_jnq2x"]
+[ext_resource type="Texture2D" uid="uid://bkoo6oao4kpbr" path="res://enemies/dragon (Round Robin)/sprite/Death/021.png" id="22_hlljy"]
+[ext_resource type="Texture2D" uid="uid://dvsk0cfyu5m2q" path="res://enemies/dragon (Round Robin)/sprite/Death/022.png" id="23_17isx"]
+[ext_resource type="Texture2D" uid="uid://dbyogxdj5kxds" path="res://enemies/dragon (Round Robin)/sprite/Death/023.png" id="24_5dxak"]
+[ext_resource type="Texture2D" uid="uid://wmwuel8jdf6i" path="res://enemies/dragon (Round Robin)/sprite/Death/024.png" id="25_2u787"]
+[ext_resource type="Texture2D" uid="uid://dfpblf0kqh26m" path="res://enemies/dragon (Round Robin)/sprite/Death/025.png" id="26_sduu2"]
+[ext_resource type="Texture2D" uid="uid://bu7kuevf72xov" path="res://enemies/dragon (Round Robin)/sprite/Death/026.png" id="27_4p42t"]
+[ext_resource type="Texture2D" uid="uid://17678reloti6" path="res://enemies/dragon (Round Robin)/sprite/Death/027.png" id="28_7agh7"]
+[ext_resource type="Texture2D" uid="uid://deqb2xgnr5t1a" path="res://enemies/dragon (Round Robin)/sprite/Death/028.png" id="29_n6pxs"]
+[ext_resource type="Texture2D" uid="uid://bq1n0n6d2n0ac" path="res://enemies/dragon (Round Robin)/sprite/Death/029.png" id="30_x7tvd"]
+[ext_resource type="Texture2D" uid="uid://baqeyuq6md52g" path="res://enemies/dragon (Round Robin)/sprite/Death/030.png" id="31_ka2se"]
+[ext_resource type="Texture2D" uid="uid://dh74qe63m3kro" path="res://enemies/dragon (Round Robin)/sprite/Death/031.png" id="32_4yrb0"]
+[ext_resource type="Texture2D" uid="uid://d16posospelgg" path="res://enemies/dragon (Round Robin)/sprite/Death/032.png" id="33_evgel"]
+[ext_resource type="Texture2D" uid="uid://mafv8sqmapjc" path="res://enemies/dragon (Round Robin)/sprite/Death/033.png" id="34_3ddwf"]
+[ext_resource type="Texture2D" uid="uid://m2f2dcufcrac" path="res://enemies/dragon (Round Robin)/sprite/Death/034.png" id="35_i0sd6"]
+[ext_resource type="Texture2D" uid="uid://bw64rg7mqk4ul" path="res://enemies/dragon (Round Robin)/sprite/Death/035.png" id="36_rutwt"]
+[ext_resource type="Texture2D" uid="uid://dgcarthw25mk" path="res://enemies/dragon (Round Robin)/sprite/Death/036.png" id="37_32nla"]
+[ext_resource type="Texture2D" uid="uid://b1c4wa6wysxs5" path="res://enemies/dragon (Round Robin)/sprite/Death/037.png" id="38_8auo8"]
+[ext_resource type="Texture2D" uid="uid://mou3crvslcha" path="res://enemies/dragon (Round Robin)/sprite/Death/038.png" id="39_jm61x"]
+[ext_resource type="Texture2D" uid="uid://brkvlnpndovfg" path="res://enemies/dragon (Round Robin)/sprite/Death/039.png" id="40_afkxn"]
+[ext_resource type="Texture2D" uid="uid://bcgd8j7bubvg" path="res://enemies/dragon (Round Robin)/sprite/Death/040.png" id="41_c8wcx"]
+[ext_resource type="Texture2D" uid="uid://dxw30lemegyxg" path="res://enemies/dragon (Round Robin)/sprite/Death/041.png" id="42_8o10y"]
+[ext_resource type="Texture2D" uid="uid://x62livsq5b4y" path="res://enemies/dragon (Round Robin)/sprite/Death/042.png" id="43_tebut"]
+[ext_resource type="Texture2D" uid="uid://bvrjrw5bpnb22" path="res://enemies/dragon (Round Robin)/sprite/Death/043.png" id="44_ey6ox"]
+[ext_resource type="Texture2D" uid="uid://dp4h3chhelt5q" path="res://enemies/dragon (Round Robin)/sprite/Death/044.png" id="45_hrc4t"]
+[ext_resource type="Texture2D" uid="uid://drl3k2xi5nos0" path="res://enemies/dragon (Round Robin)/sprite/Death/045.png" id="46_44orq"]
+[ext_resource type="Texture2D" uid="uid://cuecu2vjalowl" path="res://enemies/dragon (Round Robin)/sprite/Death/046.png" id="47_8n1cc"]
+[ext_resource type="Texture2D" uid="uid://cdyao4ft7qs44" path="res://enemies/dragon (Round Robin)/sprite/Death/047.png" id="48_fch2o"]
+[ext_resource type="Texture2D" uid="uid://d0dqjqdljvotf" path="res://enemies/dragon (Round Robin)/sprite/Death/048.png" id="49_2s2ca"]
+[ext_resource type="Texture2D" uid="uid://dcyvx3ijs4l1i" path="res://enemies/dragon (Round Robin)/sprite/Death/049.png" id="50_epwbt"]
+[ext_resource type="Texture2D" uid="uid://b8y8nnd3i78uy" path="res://enemies/dragon (Round Robin)/sprite/Death/050.png" id="51_phq2r"]
+[ext_resource type="Texture2D" uid="uid://7cj51rh8qt25" path="res://enemies/dragon (Round Robin)/sprite/Death/051.png" id="52_sknc6"]
+[ext_resource type="Texture2D" uid="uid://jgokuoevducw" path="res://enemies/dragon (Round Robin)/sprite/Death/052.png" id="53_7ckod"]
+[ext_resource type="Texture2D" uid="uid://db880mi1y7770" path="res://enemies/dragon (Round Robin)/sprite/Death/053.png" id="54_io2fw"]
+[ext_resource type="Texture2D" uid="uid://cxg58dniaqipk" path="res://enemies/dragon (Round Robin)/sprite/Death/054.png" id="55_58ncq"]
+[ext_resource type="Texture2D" uid="uid://dhep384ke22s" path="res://enemies/dragon (Round Robin)/sprite/Death/055.png" id="56_knqjm"]
+[ext_resource type="Texture2D" uid="uid://byqbfvooyip4l" path="res://enemies/dragon (Round Robin)/sprite/Death/056.png" id="57_w8amx"]
+[ext_resource type="Texture2D" uid="uid://dyi2s3xfvo1wb" path="res://enemies/dragon (Round Robin)/sprite/Death/057.png" id="58_kcrrj"]
+[ext_resource type="Texture2D" uid="uid://wrryi15gyvhy" path="res://enemies/dragon (Round Robin)/sprite/Death/058.png" id="59_f5631"]
+[ext_resource type="Texture2D" uid="uid://cbfv8m72uh256" path="res://enemies/dragon (Round Robin)/sprite/Death/059.png" id="60_j0pmo"]
+[ext_resource type="Texture2D" uid="uid://cirwp2kooc7ul" path="res://enemies/dragon (Round Robin)/sprite/Death/060.png" id="61_whsws"]
+[ext_resource type="Texture2D" uid="uid://bj1iw70af8ftw" path="res://enemies/dragon (Round Robin)/sprite/Death/061.png" id="62_hutqq"]
+[ext_resource type="Texture2D" uid="uid://cicqcfy5g5nwc" path="res://enemies/dragon (Round Robin)/sprite/Death/062.png" id="63_dld7e"]
+[ext_resource type="Texture2D" uid="uid://03abi3bk4oe5" path="res://enemies/dragon (Round Robin)/sprite/Death/063.png" id="64_m6jwt"]
+[ext_resource type="Texture2D" uid="uid://bv5jrq1ibsuu8" path="res://enemies/dragon (Round Robin)/sprite/Death/064.png" id="65_qtx5a"]
+[ext_resource type="Texture2D" uid="uid://bjh834dirnlow" path="res://enemies/dragon (Round Robin)/sprite/Death/065.png" id="66_s7vfc"]
+[ext_resource type="Texture2D" uid="uid://bx054306q4ky8" path="res://enemies/dragon (Round Robin)/sprite/Death/066.png" id="67_jfiuy"]
+[ext_resource type="Texture2D" uid="uid://cfheldl8ygbyf" path="res://enemies/dragon (Round Robin)/sprite/Death/067.png" id="68_mnjij"]
+[ext_resource type="Texture2D" uid="uid://byipe11fxnvho" path="res://enemies/dragon (Round Robin)/sprite/Death/068.png" id="69_5wvch"]
+[ext_resource type="Texture2D" uid="uid://utgt6i3kyg8h" path="res://enemies/dragon (Round Robin)/sprite/Death/069.png" id="70_kpy0e"]
+[ext_resource type="Texture2D" uid="uid://bqd51cmvlkd3d" path="res://enemies/dragon (Round Robin)/sprite/Death/070.png" id="71_0oubf"]
+[ext_resource type="Texture2D" uid="uid://bshh5ifyvojgl" path="res://enemies/dragon (Round Robin)/sprite/Death/071.png" id="72_cumob"]
+[ext_resource type="Texture2D" uid="uid://cbg0tvvg1k0rv" path="res://enemies/dragon (Round Robin)/sprite/Death/072.png" id="73_ptxtv"]
+[ext_resource type="Texture2D" uid="uid://c1spvfmpv62md" path="res://enemies/dragon (Round Robin)/sprite/Death/073.png" id="74_5so0s"]
+[ext_resource type="Texture2D" uid="uid://c8dugqel7pnqt" path="res://enemies/dragon (Round Robin)/sprite/Death/074.png" id="75_4jj3m"]
+[ext_resource type="Texture2D" uid="uid://bf3glksijy7o1" path="res://enemies/dragon (Round Robin)/sprite/Death/075.png" id="76_0q16q"]
+[ext_resource type="Texture2D" uid="uid://b8igg62c0nsgs" path="res://enemies/dragon (Round Robin)/sprite/Death/076.png" id="77_ih2ld"]
+[ext_resource type="Texture2D" uid="uid://63najl64e70s" path="res://enemies/dragon (Round Robin)/sprite/Death/077.png" id="78_arghd"]
+[ext_resource type="Texture2D" uid="uid://cbq4b8x7t5abc" path="res://enemies/dragon (Round Robin)/sprite/Death/078.png" id="79_1iyig"]
+[ext_resource type="Texture2D" uid="uid://dex255r7f06o4" path="res://enemies/dragon (Round Robin)/sprite/Death/079.png" id="80_cv0l7"]
+[ext_resource type="Texture2D" uid="uid://c26bm5aqumqg" path="res://enemies/dragon (Round Robin)/sprite/Death/080.png" id="81_ml50c"]
+[ext_resource type="Texture2D" uid="uid://wre0pr7ilk6u" path="res://enemies/dragon (Round Robin)/sprite/Death/081.png" id="82_vp560"]
+[ext_resource type="Texture2D" uid="uid://d2xr253thb71c" path="res://enemies/dragon (Round Robin)/sprite/Death/082.png" id="83_lfkc4"]
+[ext_resource type="Texture2D" uid="uid://jb2snex15652" path="res://enemies/dragon (Round Robin)/sprite/Death/083.png" id="84_o6f8t"]
+[ext_resource type="Texture2D" uid="uid://bh8g1tqdk473b" path="res://enemies/dragon (Round Robin)/sprite/Death/084.png" id="85_fdddx"]
+[ext_resource type="Texture2D" uid="uid://c5nww2kcqp135" path="res://enemies/dragon (Round Robin)/sprite/Death/085.png" id="86_c0y8g"]
+[ext_resource type="Texture2D" uid="uid://ds0y2w7tnn0xr" path="res://enemies/dragon (Round Robin)/sprite/Death/086.png" id="87_lt0th"]
+[ext_resource type="Texture2D" uid="uid://unpkgowje876" path="res://enemies/dragon (Round Robin)/sprite/Death/087.png" id="88_bc5sl"]
+[ext_resource type="Texture2D" uid="uid://peatan2wpn3i" path="res://enemies/dragon (Round Robin)/sprite/Death/088.png" id="89_u7fwl"]
+[ext_resource type="Texture2D" uid="uid://bxse824m2i86g" path="res://enemies/dragon (Round Robin)/sprite/Death/089.png" id="90_mwnxl"]
+[ext_resource type="Texture2D" uid="uid://bu1218jgpgmvt" path="res://enemies/dragon (Round Robin)/sprite/Death/090.png" id="91_ui8kg"]
+[ext_resource type="Texture2D" uid="uid://drj30abx4ffga" path="res://enemies/dragon (Round Robin)/sprite/Death/091.png" id="92_a6beb"]
+[ext_resource type="Texture2D" uid="uid://c720ewgm7t8q2" path="res://enemies/dragon (Round Robin)/sprite/Death/092.png" id="93_hqti5"]
+[ext_resource type="Texture2D" uid="uid://krh11h1jvdff" path="res://enemies/dragon (Round Robin)/sprite/Death/093.png" id="94_vjfky"]
+[ext_resource type="Texture2D" uid="uid://byyje6r058qb1" path="res://enemies/dragon (Round Robin)/sprite/Death/094.png" id="95_w1rdj"]
+[ext_resource type="Texture2D" uid="uid://b6nbwnft7ghr2" path="res://enemies/dragon (Round Robin)/sprite/Death/095.png" id="96_tl1bx"]
+[ext_resource type="Texture2D" uid="uid://cjmxm8sfdtqxj" path="res://enemies/dragon (Round Robin)/sprite/Death/096.png" id="97_qh4c3"]
+[ext_resource type="Texture2D" uid="uid://dbl0hfd4kn5mr" path="res://enemies/dragon (Round Robin)/sprite/Death/097.png" id="98_3d8wn"]
+[ext_resource type="Texture2D" uid="uid://bvduaxolrlmct" path="res://enemies/dragon (Round Robin)/sprite/Death/098.png" id="99_ygt1u"]
+[ext_resource type="Texture2D" uid="uid://cclv2e1buv0ad" path="res://enemies/dragon (Round Robin)/sprite/Death/099.png" id="100_lb2st"]
+[ext_resource type="Texture2D" uid="uid://c5a4re6rro0k6" path="res://enemies/dragon (Round Robin)/sprite/Death/100.png" id="101_swkhr"]
+[ext_resource type="Texture2D" uid="uid://clcc21j6e3h4w" path="res://enemies/dragon (Round Robin)/sprite/Death/101.png" id="102_ykscm"]
+[ext_resource type="Texture2D" uid="uid://lf3gm2xl2rky" path="res://enemies/dragon (Round Robin)/sprite/Death/102.png" id="103_qt3ry"]
+[ext_resource type="Texture2D" uid="uid://dinfnshr23ot7" path="res://enemies/dragon (Round Robin)/sprite/Death/103.png" id="104_iomr3"]
+[ext_resource type="Texture2D" uid="uid://qlgu85871nyd" path="res://enemies/dragon (Round Robin)/sprite/Death/104.png" id="105_wnnh4"]
+[ext_resource type="Texture2D" uid="uid://dqn6rg8bqhcxk" path="res://enemies/dragon (Round Robin)/sprite/Death/105.png" id="106_cafiw"]
+[ext_resource type="Texture2D" uid="uid://bukq35a22lgkb" path="res://enemies/dragon (Round Robin)/sprite/Death/106.png" id="107_munpa"]
+[ext_resource type="Texture2D" uid="uid://d1reym4awg4r" path="res://enemies/dragon (Round Robin)/sprite/Death/107.png" id="108_qgd4x"]
+[ext_resource type="Texture2D" uid="uid://deakts6b8mgfc" path="res://enemies/dragon (Round Robin)/sprite/Death/108.png" id="109_wldua"]
+[ext_resource type="Texture2D" uid="uid://22onkmsx3npu" path="res://enemies/dragon (Round Robin)/sprite/Death/109.png" id="110_uspqx"]
+[ext_resource type="Texture2D" uid="uid://cjpa4o7n307vp" path="res://enemies/dragon (Round Robin)/sprite/Death/110.png" id="111_8750s"]
+[ext_resource type="Texture2D" uid="uid://ib8n8ftykmjs" path="res://enemies/dragon (Round Robin)/sprite/Death/111.png" id="112_d1ibe"]
+[ext_resource type="Texture2D" uid="uid://dnmet0qk5j6sg" path="res://enemies/dragon (Round Robin)/sprite/Death/112.png" id="113_j8wgu"]
+[ext_resource type="Texture2D" uid="uid://cxna57mnn7r31" path="res://enemies/dragon (Round Robin)/sprite/Death/113.png" id="114_mkaaq"]
+[ext_resource type="Texture2D" uid="uid://dnhnl4daxxbaq" path="res://enemies/dragon (Round Robin)/sprite/Death/114.png" id="115_xcw6s"]
+[ext_resource type="Texture2D" uid="uid://m08dknlsqyhr" path="res://enemies/dragon (Round Robin)/sprite/Death/115.png" id="116_hk4h6"]
+[ext_resource type="Texture2D" uid="uid://p5prffdtagdl" path="res://enemies/dragon (Round Robin)/sprite/Death/116.png" id="117_vvqsb"]
+[ext_resource type="Texture2D" uid="uid://cmuw4hcbes2or" path="res://enemies/dragon (Round Robin)/sprite/Death/117.png" id="118_dtsba"]
+[ext_resource type="Texture2D" uid="uid://cg6lmkflhyih3" path="res://enemies/dragon (Round Robin)/sprite/Death/118.png" id="119_jio7m"]
+[ext_resource type="Texture2D" uid="uid://b3uoirrl7v2bm" path="res://enemies/dragon (Round Robin)/sprite/Death/119.png" id="120_7gmvk"]
+[ext_resource type="Texture2D" uid="uid://byvbc3k0djjev" path="res://enemies/dragon (Round Robin)/sprite/Death/120.png" id="121_csmhu"]
+[ext_resource type="Texture2D" uid="uid://b364gxeudkdwd" path="res://enemies/dragon (Round Robin)/sprite/Death/121.png" id="122_8yp1s"]
+[ext_resource type="Texture2D" uid="uid://o4pidjua81a" path="res://enemies/dragon (Round Robin)/sprite/Death/122.png" id="123_6fr4n"]
+[ext_resource type="Texture2D" uid="uid://cjncvtp40weci" path="res://enemies/dragon (Round Robin)/sprite/Death/123.png" id="124_0mm05"]
+[ext_resource type="Texture2D" uid="uid://bbuwcmr4h67im" path="res://enemies/dragon (Round Robin)/sprite/Death/124.png" id="125_no0do"]
+[ext_resource type="Texture2D" uid="uid://ct115hgj8y2mw" path="res://enemies/dragon (Round Robin)/sprite/Death/125.png" id="126_tvxsa"]
+[ext_resource type="Texture2D" uid="uid://qg7v4dutarkv" path="res://enemies/dragon (Round Robin)/sprite/Death/126.png" id="127_4gyeg"]
+[ext_resource type="Texture2D" uid="uid://lp4x31hvh3fr" path="res://enemies/dragon (Round Robin)/sprite/Death/127.png" id="128_5fuu1"]
+[ext_resource type="Texture2D" uid="uid://chf7tyx366r8r" path="res://enemies/dragon (Round Robin)/sprite/Death/128.png" id="129_02k4e"]
+[ext_resource type="Texture2D" uid="uid://bm5xbcwtwtn2t" path="res://enemies/dragon (Round Robin)/sprite/Death/129.png" id="130_tu5qx"]
+[ext_resource type="Texture2D" uid="uid://btfb1tjn62rmy" path="res://enemies/dragon (Round Robin)/sprite/Death/130.png" id="131_ypvwv"]
+[ext_resource type="Texture2D" uid="uid://ceui3g24gkjxx" path="res://enemies/dragon (Round Robin)/sprite/Death/131.png" id="132_s6mgc"]
+[ext_resource type="Texture2D" uid="uid://bs38entvvvhi3" path="res://enemies/dragon (Round Robin)/sprite/Death/132.png" id="133_7x4j3"]
+[ext_resource type="Texture2D" uid="uid://d3xw4lbblw3lr" path="res://enemies/dragon (Round Robin)/sprite/Death/133.png" id="134_diug5"]
+[ext_resource type="Texture2D" uid="uid://d4aefy7cqlplj" path="res://enemies/dragon (Round Robin)/sprite/Death/134.png" id="135_3e3s0"]
+[ext_resource type="Texture2D" uid="uid://brgj2eomcl1ac" path="res://enemies/dragon (Round Robin)/sprite/Death/135.png" id="136_oqwfe"]
+[ext_resource type="Texture2D" uid="uid://basib2rj8p7ov" path="res://enemies/dragon (Round Robin)/sprite/Death/136.png" id="137_uwq8l"]
+[ext_resource type="Texture2D" uid="uid://byu08xtdcsuqt" path="res://enemies/dragon (Round Robin)/sprite/Death/137.png" id="138_jdtri"]
+[ext_resource type="Texture2D" uid="uid://b1w33nbxeig1x" path="res://enemies/dragon (Round Robin)/sprite/Death/138.png" id="139_iotn0"]
+[ext_resource type="Texture2D" uid="uid://bibfpav27q7ki" path="res://enemies/dragon (Round Robin)/sprite/Death/139.png" id="140_j76sn"]
+[ext_resource type="Texture2D" uid="uid://mmgc3bwgixgp" path="res://enemies/dragon (Round Robin)/sprite/Death/140.png" id="141_ch1qh"]
+[ext_resource type="Texture2D" uid="uid://dpbwd8hk7v43e" path="res://enemies/dragon (Round Robin)/sprite/Death/141.png" id="142_pl4ij"]
+[ext_resource type="Texture2D" uid="uid://c2pcsm15mfnby" path="res://enemies/dragon (Round Robin)/sprite/Death/142.png" id="143_1pa60"]
+[ext_resource type="Texture2D" uid="uid://bf3tvodtrtyla" path="res://enemies/dragon (Round Robin)/sprite/Death/143.png" id="144_vdiak"]
+[ext_resource type="Texture2D" uid="uid://c5noxuo5jqj0x" path="res://enemies/dragon (Round Robin)/sprite/Death/144.png" id="145_pb17y"]
+[ext_resource type="Texture2D" uid="uid://v60u662lgi0u" path="res://enemies/dragon (Round Robin)/sprite/Death/145.png" id="146_tgrk7"]
+[ext_resource type="Texture2D" uid="uid://c1i24steqyxuw" path="res://enemies/dragon (Round Robin)/sprite/Death/146.png" id="147_gbpbp"]
+[ext_resource type="Texture2D" uid="uid://bcho50q4k2l7v" path="res://enemies/dragon (Round Robin)/sprite/Death/147.png" id="148_8m0xu"]
+[ext_resource type="Texture2D" uid="uid://dt630mm1fxt2l" path="res://enemies/dragon (Round Robin)/sprite/Death/148.png" id="149_v84x7"]
+[ext_resource type="Texture2D" uid="uid://by6e8pwlhe4an" path="res://enemies/dragon (Round Robin)/sprite/Death/149.png" id="150_17phe"]
+[ext_resource type="Texture2D" uid="uid://4noppgw2js5e" path="res://enemies/dragon (Round Robin)/sprite/Death/150.png" id="151_6ht5w"]
+[ext_resource type="Texture2D" uid="uid://v80uhjvn8wer" path="res://enemies/dragon (Round Robin)/sprite/Death/151.png" id="152_5vlcq"]
+[ext_resource type="Texture2D" uid="uid://bmhcovhxyjlat" path="res://enemies/dragon (Round Robin)/sprite/Death/152.png" id="153_h0mwt"]
+[ext_resource type="Texture2D" uid="uid://d0ddo5nakkema" path="res://enemies/dragon (Round Robin)/sprite/Death/153.png" id="154_746p3"]
+[ext_resource type="Texture2D" uid="uid://bbcoie6si0td3" path="res://enemies/dragon (Round Robin)/sprite/Death/154.png" id="155_0adtf"]
+[ext_resource type="Texture2D" uid="uid://wp5jersqexyd" path="res://enemies/dragon (Round Robin)/sprite/Death/155.png" id="156_sa8u8"]
+[ext_resource type="Texture2D" uid="uid://d0opbso5dfstk" path="res://enemies/dragon (Round Robin)/sprite/Death/156.png" id="157_cqegb"]
+[ext_resource type="Texture2D" uid="uid://xh1jnsyq5wmu" path="res://enemies/dragon (Round Robin)/sprite/Death/157.png" id="158_ckacx"]
+[ext_resource type="Texture2D" uid="uid://c1f7jr2qxjh1p" path="res://enemies/dragon (Round Robin)/sprite/Death/158.png" id="159_m2qob"]
+[ext_resource type="Texture2D" uid="uid://ca8udyxi6q8nh" path="res://enemies/dragon (Round Robin)/sprite/Death/159.png" id="160_54lva"]
+[ext_resource type="Texture2D" uid="uid://1d1wm5vxhlkb" path="res://enemies/dragon (Round Robin)/sprite/Death/160.png" id="161_5cs15"]
+[ext_resource type="Texture2D" uid="uid://clilfv7b3ac5y" path="res://enemies/dragon (Round Robin)/sprite/Death/161.png" id="162_0ieiu"]
+[ext_resource type="Texture2D" uid="uid://cip1gb3mbqxmn" path="res://enemies/dragon (Round Robin)/sprite/Death/162.png" id="163_kgysa"]
+[ext_resource type="Texture2D" uid="uid://fl3oixuna6fe" path="res://enemies/dragon (Round Robin)/sprite/Death/163.png" id="164_a3k1i"]
+[ext_resource type="Texture2D" uid="uid://bdyypby2cwec3" path="res://enemies/dragon (Round Robin)/sprite/Death/164.png" id="165_xbyir"]
+[ext_resource type="Texture2D" uid="uid://de11yagnh0bfl" path="res://enemies/dragon (Round Robin)/sprite/Death/165.png" id="166_t4wfw"]
+[ext_resource type="Texture2D" uid="uid://bg4a6cgqg7fto" path="res://enemies/dragon (Round Robin)/sprite/Death/166.png" id="167_s1ir4"]
+[ext_resource type="Texture2D" uid="uid://cp23mge6dgm60" path="res://enemies/dragon (Round Robin)/sprite/Death/167.png" id="168_rr4jt"]
+[ext_resource type="Texture2D" uid="uid://dl87bexsc0x5b" path="res://enemies/dragon (Round Robin)/sprite/Death/168.png" id="169_0gyoy"]
+[ext_resource type="Texture2D" uid="uid://rvuvmobt8r76" path="res://enemies/dragon (Round Robin)/sprite/Death/169.png" id="170_ny7uj"]
+[ext_resource type="Texture2D" uid="uid://hh78c844cg6c" path="res://enemies/dragon (Round Robin)/sprite/Death/170.png" id="171_f6rn2"]
+[ext_resource type="Texture2D" uid="uid://cpw3oey6hhebi" path="res://enemies/dragon (Round Robin)/sprite/Death/171.png" id="172_7vy5l"]
+[ext_resource type="Texture2D" uid="uid://qiq4q2g2mpol" path="res://enemies/dragon (Round Robin)/sprite/Death/172.png" id="173_7nfgp"]
+[ext_resource type="Texture2D" uid="uid://uqvbdw3shaap" path="res://enemies/dragon (Round Robin)/sprite/Death/173.png" id="174_v3ijm"]
+[ext_resource type="Texture2D" uid="uid://bxu62k6udpe4e" path="res://enemies/dragon (Round Robin)/sprite/Death/174.png" id="175_u6m8v"]
+[ext_resource type="Texture2D" uid="uid://2c2tias45wcu" path="res://enemies/dragon (Round Robin)/sprite/Death/175.png" id="176_k4uyc"]
+[ext_resource type="Texture2D" uid="uid://dausf7pyxjyns" path="res://enemies/dragon (Round Robin)/sprite/Death/176.png" id="177_xvu3n"]
+[ext_resource type="Texture2D" uid="uid://dcsnj6cwb0wq2" path="res://enemies/dragon (Round Robin)/sprite/Death/177.png" id="178_kfvu3"]
+[ext_resource type="Texture2D" uid="uid://drf04a7hw1es2" path="res://enemies/dragon (Round Robin)/sprite/Death/178.png" id="179_j45m3"]
+[ext_resource type="Texture2D" uid="uid://cuqraf1klo6vb" path="res://enemies/dragon (Round Robin)/sprite/Death/179.png" id="180_k8pvq"]
+[ext_resource type="Texture2D" uid="uid://i55kt0nv76il" path="res://enemies/dragon (Round Robin)/sprite/Death/180.png" id="181_fi8mr"]
+[ext_resource type="Texture2D" uid="uid://bv7u3uju0vh31" path="res://enemies/dragon (Round Robin)/sprite/Death/181.png" id="182_1x6da"]
+[ext_resource type="Texture2D" uid="uid://de3xx2vpijh6r" path="res://enemies/dragon (Round Robin)/sprite/Death/182.png" id="183_q2k84"]
+[ext_resource type="Texture2D" uid="uid://u1hfgua3d6aa" path="res://enemies/dragon (Round Robin)/sprite/Death/183.png" id="184_8es7p"]
+[ext_resource type="Texture2D" uid="uid://d3ap2s1t7316e" path="res://enemies/dragon (Round Robin)/sprite/Death/184.png" id="185_kdtcb"]
+[ext_resource type="Texture2D" uid="uid://cxblqiepcng47" path="res://enemies/dragon (Round Robin)/sprite/Death/185.png" id="186_dsxce"]
+[ext_resource type="Texture2D" uid="uid://b5nlsvv0tu2ar" path="res://enemies/dragon (Round Robin)/sprite/Death/186.png" id="187_3bpgv"]
+[ext_resource type="Texture2D" uid="uid://di0tnxolsu4dq" path="res://enemies/dragon (Round Robin)/sprite/Death/187.png" id="188_q78tn"]
+[ext_resource type="Texture2D" uid="uid://yt53b3iu7mj2" path="res://enemies/dragon (Round Robin)/sprite/Death/188.png" id="189_l0et3"]
+[ext_resource type="Texture2D" uid="uid://x1heddpvcc6o" path="res://enemies/dragon (Round Robin)/sprite/Death/189.png" id="190_qw7xu"]
+[ext_resource type="Texture2D" uid="uid://dmcu1xly8k44f" path="res://enemies/dragon (Round Robin)/sprite/Death/190.png" id="191_0e11i"]
+[ext_resource type="Texture2D" uid="uid://b67y3313a7x6r" path="res://enemies/dragon (Round Robin)/sprite/Death/191.png" id="192_2olnq"]
+[ext_resource type="Texture2D" uid="uid://dmvl281fm6ss5" path="res://enemies/dragon (Round Robin)/sprite/Death/192.png" id="193_k4xf1"]
+[ext_resource type="Texture2D" uid="uid://d1fv2rbkls3ix" path="res://enemies/dragon (Round Robin)/sprite/Death/193.png" id="194_yidr2"]
+[ext_resource type="Texture2D" uid="uid://dkqthutqc1np6" path="res://enemies/dragon (Round Robin)/sprite/Death/194.png" id="195_8ss7q"]
+[ext_resource type="Texture2D" uid="uid://f4oy8sp28cjf" path="res://enemies/dragon (Round Robin)/sprite/Death/195.png" id="196_8pp8o"]
+[ext_resource type="Texture2D" uid="uid://bjxoy231b3u5i" path="res://enemies/dragon (Round Robin)/sprite/Death/196.png" id="197_o4bba"]
+[ext_resource type="Texture2D" uid="uid://cvdg8dqbxmrgj" path="res://enemies/dragon (Round Robin)/sprite/Death/197.png" id="198_p1t7x"]
+[ext_resource type="Texture2D" uid="uid://cw4g17y8w74c" path="res://enemies/dragon (Round Robin)/sprite/Death/198.png" id="199_3qojf"]
+[ext_resource type="Texture2D" uid="uid://bahopoi6tpve0" path="res://enemies/dragon (Round Robin)/sprite/Death/199.png" id="200_b1pjx"]
+[ext_resource type="Texture2D" uid="uid://b6vstn1dqaedb" path="res://enemies/dragon (Round Robin)/sprite/Death/200.png" id="201_b8bfm"]
+[ext_resource type="Texture2D" uid="uid://bqm4d1oa5t7cv" path="res://enemies/dragon (Round Robin)/sprite/Death/201.png" id="202_70eg5"]
+[ext_resource type="Texture2D" uid="uid://c3mxnj7rlowhe" path="res://enemies/dragon (Round Robin)/sprite/Death/202.png" id="203_08sj8"]
+[ext_resource type="Texture2D" uid="uid://cwltaxkje2u11" path="res://enemies/dragon (Round Robin)/sprite/Death/203.png" id="204_jjikl"]
+[ext_resource type="Texture2D" uid="uid://tssqj1vg5v75" path="res://enemies/dragon (Round Robin)/sprite/Death/204.png" id="205_0c1jg"]
+[ext_resource type="Texture2D" uid="uid://1d2gh03jhobv" path="res://enemies/dragon (Round Robin)/sprite/Death/205.png" id="206_ibv71"]
+[ext_resource type="Texture2D" uid="uid://cl0sem3rh83iv" path="res://enemies/dragon (Round Robin)/sprite/Death/206.png" id="207_rk7wo"]
+[ext_resource type="Texture2D" uid="uid://u4dw1h35jhn" path="res://enemies/dragon (Round Robin)/sprite/Death/207.png" id="208_xw7pt"]
+[ext_resource type="Texture2D" uid="uid://dv0d4s0rflj0c" path="res://enemies/dragon (Round Robin)/sprite/Death/208.png" id="209_ybn6k"]
+[ext_resource type="Texture2D" uid="uid://dl340k3wtrati" path="res://enemies/dragon (Round Robin)/sprite/Death/209.png" id="210_j4cw6"]
+[ext_resource type="Texture2D" uid="uid://b5j5c5fbc4778" path="res://enemies/dragon (Round Robin)/sprite/Death/210.png" id="211_8gn0x"]
+[ext_resource type="Texture2D" uid="uid://0jsww2uxj7vl" path="res://enemies/dragon (Round Robin)/sprite/Death/211.png" id="212_qniuk"]
+[ext_resource type="Texture2D" uid="uid://c8dhuh4pbbta4" path="res://enemies/dragon (Round Robin)/sprite/Death/212.png" id="213_5vgjh"]
+[ext_resource type="Texture2D" uid="uid://cyxdxv4dcioqw" path="res://enemies/dragon (Round Robin)/sprite/Death/213.png" id="214_hv2wq"]
+[ext_resource type="Texture2D" uid="uid://ccwfgyfof2pb4" path="res://enemies/dragon (Round Robin)/sprite/Death/214.png" id="215_5fukt"]
+[ext_resource type="Texture2D" uid="uid://dgvesyyawjbel" path="res://enemies/dragon (Round Robin)/sprite/Death/215.png" id="216_looas"]
+[ext_resource type="Texture2D" uid="uid://befo3m86wjm20" path="res://enemies/dragon (Round Robin)/sprite/Death/216.png" id="217_50v23"]
+[ext_resource type="Texture2D" uid="uid://bql6a2k7qdi6l" path="res://enemies/dragon (Round Robin)/sprite/Death/217.png" id="218_1oi5j"]
+[ext_resource type="Texture2D" uid="uid://tbxm8rujvnfo" path="res://enemies/dragon (Round Robin)/sprite/Death/218.png" id="219_oam1i"]
+[ext_resource type="Texture2D" uid="uid://dwxmncyslyqfw" path="res://enemies/dragon (Round Robin)/sprite/Death/219.png" id="220_o8mqw"]
+[ext_resource type="Texture2D" uid="uid://dsehts1mn5bh4" path="res://enemies/dragon (Round Robin)/sprite/Death/220.png" id="221_487q2"]
+[ext_resource type="Texture2D" uid="uid://b5npk1s0e20c5" path="res://enemies/dragon (Round Robin)/sprite/Death/221.png" id="222_ugawh"]
+[ext_resource type="Texture2D" uid="uid://c00kb1cc4o0th" path="res://enemies/dragon (Round Robin)/sprite/Death/222.png" id="223_c07e4"]
+[ext_resource type="Texture2D" uid="uid://ccbbnkjds656f" path="res://enemies/dragon (Round Robin)/sprite/Death/223.png" id="224_seost"]
+[ext_resource type="Texture2D" uid="uid://djn6d0xpkoiia" path="res://enemies/dragon (Round Robin)/sprite/Death/224.png" id="225_ll3so"]
+[ext_resource type="Texture2D" uid="uid://cetlxjmjbyolv" path="res://enemies/dragon (Round Robin)/sprite/Death/225.png" id="226_3usld"]
+[ext_resource type="Texture2D" uid="uid://ybxqvm0cse5f" path="res://enemies/dragon (Round Robin)/sprite/Death/226.png" id="227_72vwu"]
+[ext_resource type="Texture2D" uid="uid://c7nnweqdxc0qv" path="res://enemies/dragon (Round Robin)/sprite/Death/227.png" id="228_5lqp6"]
+[ext_resource type="Texture2D" uid="uid://ddqgt6gqc642k" path="res://enemies/dragon (Round Robin)/sprite/Death/228.png" id="229_y1x1w"]
+[ext_resource type="Texture2D" uid="uid://c0tm10gxnct5j" path="res://enemies/dragon (Round Robin)/sprite/Death/229.png" id="230_6py51"]
+[ext_resource type="Texture2D" uid="uid://cvub4p4r7samh" path="res://enemies/dragon (Round Robin)/sprite/Death/230.png" id="231_u6tf2"]
+[ext_resource type="Texture2D" uid="uid://bvff0680ls1sj" path="res://enemies/dragon (Round Robin)/sprite/Death/231.png" id="232_5v8sq"]
+[ext_resource type="Texture2D" uid="uid://dqc3kvpudfk5s" path="res://enemies/dragon (Round Robin)/sprite/Death/232.png" id="233_1r1by"]
+[ext_resource type="Texture2D" uid="uid://bkfc1dy2fyj8y" path="res://enemies/dragon (Round Robin)/sprite/Death/233.png" id="234_g5s67"]
+[ext_resource type="Texture2D" uid="uid://uh6n1ptwfccg" path="res://enemies/dragon (Round Robin)/sprite/Death/234.png" id="235_tegmj"]
+[ext_resource type="Texture2D" uid="uid://bou4iw1frjhn5" path="res://enemies/dragon (Round Robin)/sprite/Death/235.png" id="236_bsh2u"]
+[ext_resource type="Texture2D" uid="uid://b3ylnjujqstwy" path="res://enemies/dragon (Round Robin)/sprite/Death/236.png" id="237_ubqxn"]
+[ext_resource type="Texture2D" uid="uid://gmplfrhn31t2" path="res://enemies/dragon (Round Robin)/sprite/Death/237.png" id="238_p7e1d"]
+[ext_resource type="Texture2D" uid="uid://oquyx4302ift" path="res://enemies/dragon (Round Robin)/sprite/Death/238.png" id="239_xlhuw"]
+[ext_resource type="Texture2D" uid="uid://rrpkjupts68c" path="res://enemies/dragon (Round Robin)/sprite/Death/239.png" id="240_fp6j0"]
+[ext_resource type="Texture2D" uid="uid://7xrdikxxmlm3" path="res://enemies/dragon (Round Robin)/sprite/Death/240.png" id="241_g5b2x"]
+[ext_resource type="Texture2D" uid="uid://briavpj8qlnd6" path="res://enemies/dragon (Round Robin)/sprite/Death/241.png" id="242_ty5fm"]
+[ext_resource type="Texture2D" uid="uid://cw0s183li6u5h" path="res://enemies/dragon (Round Robin)/sprite/Death/242.png" id="243_edv3e"]
+[ext_resource type="Texture2D" uid="uid://dlecwy1ujxliv" path="res://enemies/dragon (Round Robin)/sprite/Death/243.png" id="244_g001d"]
+[ext_resource type="Texture2D" uid="uid://c331led5qjrhg" path="res://enemies/dragon (Round Robin)/sprite/Death/244.png" id="245_v3njx"]
+[ext_resource type="Texture2D" uid="uid://bos4vc1kak8fr" path="res://enemies/dragon (Round Robin)/sprite/Death/245.png" id="246_pyrpp"]
+[ext_resource type="Texture2D" uid="uid://c6qhpw07sr2k" path="res://enemies/dragon (Round Robin)/sprite/Death/246.png" id="247_ovw5t"]
+[ext_resource type="Texture2D" uid="uid://cykdaqfelj7r7" path="res://enemies/dragon (Round Robin)/sprite/Death/247.png" id="248_g0pbu"]
+[ext_resource type="Texture2D" uid="uid://bxjidcjmf8dfu" path="res://enemies/dragon (Round Robin)/sprite/Death/248.png" id="249_krt1e"]
+[ext_resource type="Texture2D" uid="uid://b4h7qx4xhjbg6" path="res://enemies/dragon (Round Robin)/sprite/Death/249.png" id="250_epiob"]
+[ext_resource type="Texture2D" uid="uid://dq60tq6h8j3uo" path="res://enemies/dragon (Round Robin)/sprite/Death/250.png" id="251_b33li"]
+[ext_resource type="Texture2D" uid="uid://chaqyrm2ynig7" path="res://enemies/dragon (Round Robin)/sprite/Death/251.png" id="252_u3jsj"]
+[ext_resource type="Texture2D" uid="uid://cupllej0py5p0" path="res://enemies/dragon (Round Robin)/sprite/Death/252.png" id="253_peqmp"]
+[ext_resource type="Texture2D" uid="uid://ct3pg0nehne5x" path="res://enemies/dragon (Round Robin)/sprite/Death/253.png" id="254_pft6r"]
+[ext_resource type="Texture2D" uid="uid://b8646x7dlqn1u" path="res://enemies/dragon (Round Robin)/sprite/Death/254.png" id="255_uks2e"]
+[ext_resource type="Texture2D" uid="uid://cl2p53cgdb2hu" path="res://enemies/dragon (Round Robin)/sprite/Death/255.png" id="256_f5ole"]
+[ext_resource type="Texture2D" uid="uid://4xdj3odj34jv" path="res://enemies/dragon (Round Robin)/sprite/Death/256.png" id="257_wfwx0"]
+[ext_resource type="Texture2D" uid="uid://bgww007b3a780" path="res://enemies/dragon (Round Robin)/sprite/Death/257.png" id="258_jiwd7"]
+[ext_resource type="Texture2D" uid="uid://wt6cu8ts7mam" path="res://enemies/dragon (Round Robin)/sprite/Death/258.png" id="259_6kljt"]
+[ext_resource type="Texture2D" uid="uid://b4i5fcua3fr4f" path="res://enemies/dragon (Round Robin)/sprite/Death/259.png" id="260_h1ee6"]
+[ext_resource type="Texture2D" uid="uid://cbcocbntaihpr" path="res://enemies/dragon (Round Robin)/sprite/Death/260.png" id="261_2ssbm"]
+[ext_resource type="Texture2D" uid="uid://das6j0unjsp65" path="res://enemies/dragon (Round Robin)/sprite/Death/261.png" id="262_h4ej6"]
+[ext_resource type="Texture2D" uid="uid://cuv3hxywghvse" path="res://enemies/dragon (Round Robin)/sprite/Death/262.png" id="263_y5h6m"]
+[ext_resource type="Texture2D" uid="uid://dsxw8lmjm5nn4" path="res://enemies/dragon (Round Robin)/sprite/Death/263.png" id="264_xv3ru"]
+[ext_resource type="Texture2D" uid="uid://w1whp05li5hg" path="res://enemies/dragon (Round Robin)/sprite/Death/264.png" id="265_6rr2t"]
+[ext_resource type="Texture2D" uid="uid://dijb3wd1bblf1" path="res://enemies/dragon (Round Robin)/sprite/Death/265.png" id="266_f2hq4"]
+[ext_resource type="Texture2D" uid="uid://fpgofnob1ohm" path="res://enemies/dragon (Round Robin)/sprite/Death/266.png" id="267_qgjgj"]
+[ext_resource type="Texture2D" uid="uid://drrcqr1dhcgry" path="res://enemies/dragon (Round Robin)/sprite/Death/267.png" id="268_jp74d"]
+[ext_resource type="Texture2D" uid="uid://bmte64wmg5iaj" path="res://enemies/dragon (Round Robin)/sprite/Death/268.png" id="269_85j7x"]
+[ext_resource type="Texture2D" uid="uid://dfxd8embk5diw" path="res://enemies/dragon (Round Robin)/sprite/Death/269.png" id="270_rm22p"]
+[ext_resource type="Texture2D" uid="uid://0vouwvdme4sp" path="res://enemies/dragon (Round Robin)/sprite/Death/270.png" id="271_1u21b"]
+[ext_resource type="Texture2D" uid="uid://b2i2syavdvio3" path="res://enemies/dragon (Round Robin)/sprite/Death/271.png" id="272_0r0l3"]
+[ext_resource type="Texture2D" uid="uid://dvljofejc4cib" path="res://enemies/dragon (Round Robin)/sprite/Death/272.png" id="273_a4gag"]
+[ext_resource type="Texture2D" uid="uid://cquepqwjjqite" path="res://enemies/dragon (Round Robin)/sprite/Death/273.png" id="274_ehpra"]
+[ext_resource type="Texture2D" uid="uid://drvv24pvbhyl3" path="res://enemies/dragon (Round Robin)/sprite/Death/274.png" id="275_3mk6k"]
+[ext_resource type="Texture2D" uid="uid://c37k0slmw4qn7" path="res://enemies/dragon (Round Robin)/sprite/Death/275.png" id="276_qxxlv"]
+[ext_resource type="Texture2D" uid="uid://bpa0witt6ql7t" path="res://enemies/dragon (Round Robin)/sprite/Death/276.png" id="277_1p35o"]
+[ext_resource type="Texture2D" uid="uid://bg4i6pjeejjig" path="res://enemies/dragon (Round Robin)/sprite/Death/277.png" id="278_sqtnq"]
+[ext_resource type="Texture2D" uid="uid://fgskc5n0asm4" path="res://enemies/dragon (Round Robin)/sprite/Death/278.png" id="279_68bke"]
+[ext_resource type="Texture2D" uid="uid://n51u1v6727ke" path="res://enemies/dragon (Round Robin)/sprite/Death/279.png" id="280_xwjee"]
+[ext_resource type="Texture2D" uid="uid://u4u27hu8wl3c" path="res://enemies/dragon (Round Robin)/sprite/Death/280.png" id="281_0pxdw"]
+[ext_resource type="Texture2D" uid="uid://b3vjr66mfaxe8" path="res://enemies/dragon (Round Robin)/sprite/Death/281.png" id="282_i8pfj"]
+[ext_resource type="Texture2D" uid="uid://br2mqj82o1q8h" path="res://enemies/dragon (Round Robin)/sprite/Death/282.png" id="283_l1tde"]
+[ext_resource type="Texture2D" uid="uid://yld353i1ky46" path="res://enemies/dragon (Round Robin)/sprite/Death/283.png" id="284_up177"]
+[ext_resource type="Texture2D" uid="uid://c0yo55rsh52d8" path="res://enemies/dragon (Round Robin)/sprite/Death/284.png" id="285_wt1p1"]
+[ext_resource type="Texture2D" uid="uid://ctgnlvfaj5s6y" path="res://enemies/dragon (Round Robin)/sprite/Death/285.png" id="286_jdice"]
+[ext_resource type="Texture2D" uid="uid://w77b164bgkha" path="res://enemies/dragon (Round Robin)/sprite/Death/286.png" id="287_pm55x"]
+[ext_resource type="Texture2D" uid="uid://birwjrddwt1m0" path="res://enemies/dragon (Round Robin)/sprite/Death/287.png" id="288_adthr"]
+[ext_resource type="Texture2D" uid="uid://dkdavxi75x0pp" path="res://enemies/dragon (Round Robin)/sprite/Death/288.png" id="289_mcij1"]
+[ext_resource type="Texture2D" uid="uid://cwcjcc74ycr5u" path="res://enemies/dragon (Round Robin)/sprite/Death/289.png" id="290_bdtnu"]
+[ext_resource type="Texture2D" uid="uid://cxucgx0jy5jdl" path="res://enemies/dragon (Round Robin)/sprite/Death/290.png" id="291_ugkay"]
+[ext_resource type="Texture2D" uid="uid://dgsh6dm6em7w1" path="res://enemies/dragon (Round Robin)/sprite/Death/291.png" id="292_unc6s"]
+[ext_resource type="Texture2D" uid="uid://bb1w5gbwup3gf" path="res://enemies/dragon (Round Robin)/sprite/Death/292.png" id="293_g0htn"]
+[ext_resource type="Texture2D" uid="uid://yvcrao55dxxt" path="res://enemies/dragon (Round Robin)/sprite/Death/293.png" id="294_ojdhp"]
+[ext_resource type="Texture2D" uid="uid://mskuhgqj0x8f" path="res://enemies/dragon (Round Robin)/sprite/Death/294.png" id="295_ssh3l"]
+[ext_resource type="Texture2D" uid="uid://cqvw1ggv1nm7" path="res://enemies/dragon (Round Robin)/sprite/Death/295.png" id="296_kgri0"]
+[ext_resource type="Texture2D" uid="uid://crlw03weeqiqx" path="res://enemies/dragon (Round Robin)/sprite/Death/296.png" id="297_ae05p"]
+[ext_resource type="Texture2D" uid="uid://qryugtms7bah" path="res://enemies/dragon (Round Robin)/sprite/Death/297.png" id="298_kk2p3"]
+[ext_resource type="Texture2D" uid="uid://3atbb6xecn4d" path="res://enemies/dragon (Round Robin)/sprite/Death/298.png" id="299_qahdw"]
+[ext_resource type="Texture2D" uid="uid://yxjhc44yrt2m" path="res://enemies/dragon (Round Robin)/sprite/Death/299.png" id="300_258vq"]
+[ext_resource type="Texture2D" uid="uid://deqmvac1gb3ms" path="res://enemies/dragon (Round Robin)/sprite/Death/300.png" id="301_cqmv8"]
+[ext_resource type="Texture2D" uid="uid://bikf40sylqju1" path="res://enemies/dragon (Round Robin)/sprite/Death/301.png" id="302_bdqf5"]
+[ext_resource type="Texture2D" uid="uid://ci8vihwcp1wnn" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/001.png" id="303_ff71s"]
+[ext_resource type="Texture2D" uid="uid://5ss2v6b5lcr4" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/002.png" id="304_23w6p"]
+[ext_resource type="Texture2D" uid="uid://bmrcpgtbc4vmq" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/003.png" id="305_2s7rv"]
+[ext_resource type="Texture2D" uid="uid://of8ybypjmeb4" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/004.png" id="306_iipdk"]
+[ext_resource type="Texture2D" uid="uid://cyaq5t4jjj5wv" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/005.png" id="307_e7rn7"]
+[ext_resource type="Texture2D" uid="uid://dt27r5fmkck72" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/006.png" id="308_qtfex"]
+[ext_resource type="Texture2D" uid="uid://dwvj4dccabvbw" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/007.png" id="309_gnn8d"]
+[ext_resource type="Texture2D" uid="uid://ctxk5fsyap1q3" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/008.png" id="310_wr2ir"]
+[ext_resource type="Texture2D" uid="uid://5vnmnykrqvc4" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/009.png" id="311_cx3vk"]
+[ext_resource type="Texture2D" uid="uid://bjwk37eorhrsd" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/010.png" id="312_vo5os"]
+[ext_resource type="Texture2D" uid="uid://qm06rcos8icd" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/011.png" id="313_0q00w"]
+[ext_resource type="Texture2D" uid="uid://bl7qq0dov0430" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/012.png" id="314_l4t44"]
+[ext_resource type="Texture2D" uid="uid://ddltdpi5mglm" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/013.png" id="315_fowe8"]
+[ext_resource type="Texture2D" uid="uid://tivhkklx0h4i" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/014.png" id="316_m4ywa"]
+[ext_resource type="Texture2D" uid="uid://mmysn1yyxwch" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/015.png" id="317_28flk"]
+[ext_resource type="Texture2D" uid="uid://dv3q1fcxmcnpp" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/016.png" id="318_aefdi"]
+[ext_resource type="Texture2D" uid="uid://dwnhiqgut10dr" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/017.png" id="319_x0e8v"]
+[ext_resource type="Texture2D" uid="uid://rdw7rfubwnkw" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/018.png" id="320_i2s2u"]
+[ext_resource type="Texture2D" uid="uid://dmsnkuokrkwps" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/019.png" id="321_5f4xw"]
+[ext_resource type="Texture2D" uid="uid://d02t1hb5icxor" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/020.png" id="322_vhm1b"]
+[ext_resource type="Texture2D" uid="uid://d1tnrrv2nl7sa" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/021.png" id="323_7ketq"]
+[ext_resource type="Texture2D" uid="uid://bdqspqbjyo75s" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/022.png" id="324_2ktai"]
+[ext_resource type="Texture2D" uid="uid://m47cbwwd67qa" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/023.png" id="325_lc5dj"]
+[ext_resource type="Texture2D" uid="uid://dfd2tvlwducyd" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/024.png" id="326_s8h7b"]
+[ext_resource type="Texture2D" uid="uid://pe8chs0dld3a" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/025.png" id="327_011il"]
+[ext_resource type="Texture2D" uid="uid://t14en25t5exa" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/026.png" id="328_aeb6f"]
+[ext_resource type="Texture2D" uid="uid://cfqxapc8xp5yk" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/027.png" id="329_0oaa8"]
+[ext_resource type="Texture2D" uid="uid://dftl4t4e8ijx8" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/028.png" id="330_730lv"]
+[ext_resource type="Texture2D" uid="uid://bfjni6tif43os" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/029.png" id="331_mfrrc"]
+[ext_resource type="Texture2D" uid="uid://h0iu6ovy8ajw" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/030.png" id="332_2fm1j"]
+[ext_resource type="Texture2D" uid="uid://cscfljrtd5f2f" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/031.png" id="333_vtsgm"]
+[ext_resource type="Texture2D" uid="uid://cdn115jfkreu2" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/032.png" id="334_hunf8"]
+[ext_resource type="Texture2D" uid="uid://bxeb0rmy5qxpi" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/033.png" id="335_776sk"]
+[ext_resource type="Texture2D" uid="uid://d1tqc0o1embad" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/034.png" id="336_j5eir"]
+[ext_resource type="Texture2D" uid="uid://b2qtq8jgkc45u" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/035.png" id="337_5ynxh"]
+[ext_resource type="Texture2D" uid="uid://ciuyiaknpbr2m" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/036.png" id="338_q8k6i"]
+[ext_resource type="Texture2D" uid="uid://i8ycb8cmksh2" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/037.png" id="339_b25kt"]
+[ext_resource type="Texture2D" uid="uid://d1swp6xc1ibqq" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/038.png" id="340_2tbpl"]
+[ext_resource type="Texture2D" uid="uid://co1h7wbdb1v31" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/039.png" id="341_edk2a"]
+[ext_resource type="Texture2D" uid="uid://4n6yavdvwihy" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/040.png" id="342_45uua"]
+[ext_resource type="Texture2D" uid="uid://d0dd3dxs2lftn" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/041.png" id="343_7wt1i"]
+[ext_resource type="Texture2D" uid="uid://cklycrbk3ge15" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/042.png" id="344_cuho7"]
+[ext_resource type="Texture2D" uid="uid://da70pkgget81q" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/043.png" id="345_h0kyu"]
+[ext_resource type="Texture2D" uid="uid://buqgn8u3ettkl" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/044.png" id="346_8thsc"]
+[ext_resource type="Texture2D" uid="uid://dkx10uuyvf2hr" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/045.png" id="347_v20kx"]
+[ext_resource type="Texture2D" uid="uid://cg1lir5tb4432" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/046.png" id="348_r6dea"]
+[ext_resource type="Texture2D" uid="uid://cn4v78c8n8dt7" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/047.png" id="349_6qg6g"]
+[ext_resource type="Texture2D" uid="uid://d6qk2xelqwj6" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/048.png" id="350_elkk2"]
+[ext_resource type="Texture2D" uid="uid://bjv0mqhw413n8" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/049.png" id="351_0p62a"]
+[ext_resource type="Texture2D" uid="uid://bv8l4sbf70lil" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/050.png" id="352_yromf"]
+[ext_resource type="Texture2D" uid="uid://d1w4f0i17blmi" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/051.png" id="353_3bkou"]
+[ext_resource type="Texture2D" uid="uid://b2jaxqklyh0fi" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/052.png" id="354_8c1j2"]
+[ext_resource type="Texture2D" uid="uid://cdwforowfi7x2" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/053.png" id="355_xnxmw"]
+[ext_resource type="Texture2D" uid="uid://mv41f8yo6cft" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/054.png" id="356_kd6gl"]
+[ext_resource type="Texture2D" uid="uid://rgya044rvyrg" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/055.png" id="357_4l28s"]
+[ext_resource type="Texture2D" uid="uid://bou1sexoaylmw" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/056.png" id="358_m02l1"]
+[ext_resource type="Texture2D" uid="uid://btiko7haolg84" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/057.png" id="359_kpemc"]
+[ext_resource type="Texture2D" uid="uid://djod3b3xbp34v" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/058.png" id="360_f6yqr"]
+[ext_resource type="Texture2D" uid="uid://b5ntcf0xwbbui" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/059.png" id="361_bgjk1"]
+[ext_resource type="Texture2D" uid="uid://dsjhc0180koxv" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/060.png" id="362_mnmb2"]
+[ext_resource type="Texture2D" uid="uid://bkvuc46anyjnv" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/061.png" id="363_02dbd"]
+[ext_resource type="Texture2D" uid="uid://heunswt6ywuq" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/062.png" id="364_uwx6k"]
+[ext_resource type="Texture2D" uid="uid://63grewe6peiw" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/063.png" id="365_blabh"]
+[ext_resource type="Texture2D" uid="uid://d4g3j8roccsyj" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/064.png" id="366_7qj6p"]
+[ext_resource type="Texture2D" uid="uid://d4dn8l6dp0akl" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/065.png" id="367_sqav0"]
+[ext_resource type="Texture2D" uid="uid://b55a01a5qqjot" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/066.png" id="368_fq1wl"]
+[ext_resource type="Texture2D" uid="uid://bv5mmb56c8mt6" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/067.png" id="369_jaft8"]
+[ext_resource type="Texture2D" uid="uid://dxqxfqd33wxm3" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/068.png" id="370_f8m1o"]
+[ext_resource type="Texture2D" uid="uid://n6q4p0iktuix" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/069.png" id="371_4isaq"]
+[ext_resource type="Texture2D" uid="uid://btsubwnvqy0cp" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/070.png" id="372_k5f26"]
+[ext_resource type="Texture2D" uid="uid://dtqg3u6ns6rnm" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/071.png" id="373_tpw08"]
+[ext_resource type="Texture2D" uid="uid://bn88yp6wq3amm" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/072.png" id="374_n5cxl"]
+[ext_resource type="Texture2D" uid="uid://dlnp1ag6skdlb" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/073.png" id="375_js7mr"]
+[ext_resource type="Texture2D" uid="uid://dq8fgq3rwlxf7" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/074.png" id="376_u8r5x"]
+[ext_resource type="Texture2D" uid="uid://c44wc2o21m8pl" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/075.png" id="377_lajg7"]
+[ext_resource type="Texture2D" uid="uid://pmd1v152ttd7" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/076.png" id="378_iv0wh"]
+[ext_resource type="Texture2D" uid="uid://3or37yie6c16" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/077.png" id="379_pksw8"]
+[ext_resource type="Texture2D" uid="uid://c7v55f16yoh4b" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/078.png" id="380_cd63d"]
+[ext_resource type="Texture2D" uid="uid://b7s21610fp561" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/079.png" id="381_gbotv"]
+[ext_resource type="Texture2D" uid="uid://ddgtw0xvup3w2" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/080.png" id="382_fddsl"]
+[ext_resource type="Texture2D" uid="uid://bie6m3gx2pdb6" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/081.png" id="383_f22v5"]
+[ext_resource type="Texture2D" uid="uid://b2ffxfm0xe2f" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/082.png" id="384_yxjni"]
+[ext_resource type="Texture2D" uid="uid://d4e6phxg6nyvo" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/083.png" id="385_ia1x3"]
+[ext_resource type="Texture2D" uid="uid://c3favdtkdip6s" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/084.png" id="386_iukjm"]
+[ext_resource type="Texture2D" uid="uid://dx0sflnux5re5" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/085.png" id="387_83u3g"]
+[ext_resource type="Texture2D" uid="uid://bhopowtahvyf7" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/086.png" id="388_pjeeq"]
+[ext_resource type="Texture2D" uid="uid://b1qa084nxtt3u" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/087.png" id="389_cy7u3"]
+[ext_resource type="Texture2D" uid="uid://b36qfiymyb4iq" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/088.png" id="390_4gabi"]
+[ext_resource type="Texture2D" uid="uid://bhhrwbrwj1vf" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/089.png" id="391_t43le"]
+[ext_resource type="Texture2D" uid="uid://dr0syxi7vtxqu" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/090.png" id="392_p71q2"]
+[ext_resource type="Texture2D" uid="uid://c3q75k550v6ti" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/091.png" id="393_adejf"]
+[ext_resource type="Texture2D" uid="uid://clnewlhrb4j8" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/092.png" id="394_f1fx7"]
+[ext_resource type="Texture2D" uid="uid://ddlmvfdj8fv7k" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/093.png" id="395_stf4e"]
+[ext_resource type="Texture2D" uid="uid://cjk50rtqo3twc" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/094.png" id="396_l35vp"]
+[ext_resource type="Texture2D" uid="uid://tf3f5prtak3p" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/095.png" id="397_nj27v"]
+[ext_resource type="Texture2D" uid="uid://c88htirnv40gp" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/096.png" id="398_pshah"]
+[ext_resource type="Texture2D" uid="uid://bvugtuo31rt53" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/097.png" id="399_7vcpe"]
+[ext_resource type="Texture2D" uid="uid://c8dhdpqp0l6el" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/098.png" id="400_shm4w"]
+[ext_resource type="Texture2D" uid="uid://dymdcors332ss" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/099.png" id="401_5ytnb"]
+[ext_resource type="Texture2D" uid="uid://wip5i8432out" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/100.png" id="402_0wska"]
+[ext_resource type="Texture2D" uid="uid://c5cr7noj10108" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/101.png" id="403_65gsb"]
+[ext_resource type="Texture2D" uid="uid://bijm67alr2c1n" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/102.png" id="404_5j8du"]
+[ext_resource type="Texture2D" uid="uid://btjpsclc236l1" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/103.png" id="405_dbvku"]
+[ext_resource type="Texture2D" uid="uid://cf2tip0vms7t3" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/104.png" id="406_sodkp"]
+[ext_resource type="Texture2D" uid="uid://b7dun1efrctgq" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/105.png" id="407_imr0t"]
+[ext_resource type="Texture2D" uid="uid://pqy3bby8yuyv" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/106.png" id="408_iuwi7"]
+[ext_resource type="Texture2D" uid="uid://dtpmdqsgd2tet" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/107.png" id="409_rmdvx"]
+[ext_resource type="Texture2D" uid="uid://cj2iryeypmdja" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/108.png" id="410_n4te3"]
+[ext_resource type="Texture2D" uid="uid://dw85026h6qhem" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/109.png" id="411_ehyak"]
+[ext_resource type="Texture2D" uid="uid://8p1sde2dmf16" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/110.png" id="412_8r7se"]
+[ext_resource type="Texture2D" uid="uid://1jl63elqg1tj" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/111.png" id="413_b4p3h"]
+[ext_resource type="Texture2D" uid="uid://dx8wwfhvojv0v" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/112.png" id="414_i76l1"]
+[ext_resource type="Texture2D" uid="uid://d2km3ie6lkgq8" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/113.png" id="415_ry25e"]
+[ext_resource type="Texture2D" uid="uid://bgauogb2enxaj" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/114.png" id="416_sb3ik"]
+[ext_resource type="Texture2D" uid="uid://bvchydbsufb21" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/115.png" id="417_p5anw"]
+[ext_resource type="Texture2D" uid="uid://cx3hi23eouuh5" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/116.png" id="418_fdgm8"]
+[ext_resource type="Texture2D" uid="uid://wqpxn4rlwwsr" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/117.png" id="419_cawp4"]
+[ext_resource type="Texture2D" uid="uid://bmiqta4mpusxk" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/118.png" id="420_qnu35"]
+[ext_resource type="Texture2D" uid="uid://c0owkyipjy6is" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/119.png" id="421_tk7a6"]
+[ext_resource type="Texture2D" uid="uid://c0efnk73le64g" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/120.png" id="422_3ifv8"]
+[ext_resource type="Texture2D" uid="uid://dej4cdrnjmppa" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/121.png" id="423_htc3l"]
+[ext_resource type="Texture2D" uid="uid://4qpvbcmctfhb" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/122.png" id="424_pgus4"]
+[ext_resource type="Texture2D" uid="uid://31j50sklhook" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/123.png" id="425_ye1xt"]
+[ext_resource type="Texture2D" uid="uid://b7la840gm6plm" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/124.png" id="426_17xw0"]
+[ext_resource type="Texture2D" uid="uid://bvb6s5ceikt2i" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/125.png" id="427_50ibf"]
+[ext_resource type="Texture2D" uid="uid://bn4lafu47vj0o" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/126.png" id="428_ub24q"]
+[ext_resource type="Texture2D" uid="uid://c4ivyjt02511l" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/127.png" id="429_37ljq"]
+[ext_resource type="Texture2D" uid="uid://c6g60viasijyt" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/128.png" id="430_rmmcl"]
+[ext_resource type="Texture2D" uid="uid://cg322wt24gydn" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/129.png" id="431_3cuwb"]
+[ext_resource type="Texture2D" uid="uid://bba8pko5hq6n1" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/130.png" id="432_ciyh2"]
+[ext_resource type="Texture2D" uid="uid://d0yxac8f1m1h3" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/131.png" id="433_n2fea"]
+[ext_resource type="Texture2D" uid="uid://bm2fyiigy7drf" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/132.png" id="434_mrxfl"]
+[ext_resource type="Texture2D" uid="uid://7v4nxp373km0" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/133.png" id="435_q6c65"]
+[ext_resource type="Texture2D" uid="uid://b3pmab6bv0tlm" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/134.png" id="436_27jtg"]
+[ext_resource type="Texture2D" uid="uid://bmnhc4tt7kvf5" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/135.png" id="437_u71tg"]
+[ext_resource type="Texture2D" uid="uid://ds82bel7j118y" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/136.png" id="438_h7552"]
+[ext_resource type="Texture2D" uid="uid://dqcxb3unbq705" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/137.png" id="439_n62ux"]
+[ext_resource type="Texture2D" uid="uid://cr55t4rg3ek5x" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/138.png" id="440_d04fv"]
+[ext_resource type="Texture2D" uid="uid://wv5v3522wjd6" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/139.png" id="441_3eqgd"]
+[ext_resource type="Texture2D" uid="uid://cg57ae2lmvei7" path="res://enemies/dragon (Round Robin)/sprite/Idle Battle/140.png" id="442_hgeqp"]
+
+[sub_resource type="CircleShape2D" id="1"]
+radius = 40.0
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_cnu2h"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_vkuvu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_efg4v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_jx25e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_6lg1y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_x3wye")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_k8rer")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_2d2qi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_nyx21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_6xbt5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_g6cch")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_tcjr0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_asv6c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_b7tep")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_uuo6a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_4ogft")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_h160e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_54hy7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_f4tjd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_bnodm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_jnq2x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_hlljy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_17isx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_5dxak")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_2u787")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_sduu2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_4p42t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_7agh7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_n6pxs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_x7tvd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_ka2se")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_4yrb0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_evgel")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_3ddwf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_i0sd6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_rutwt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_32nla")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_8auo8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_jm61x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_afkxn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_c8wcx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_8o10y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_tebut")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_ey6ox")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_hrc4t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_44orq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_8n1cc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_fch2o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_2s2ca")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_epwbt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_phq2r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_sknc6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_7ckod")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_io2fw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_58ncq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_knqjm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_w8amx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_kcrrj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_f5631")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_j0pmo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_whsws")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_hutqq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_dld7e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_m6jwt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_qtx5a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_s7vfc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_jfiuy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_mnjij")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_5wvch")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_kpy0e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_0oubf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_cumob")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_ptxtv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_5so0s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_4jj3m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_0q16q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_ih2ld")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_arghd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_1iyig")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_cv0l7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81_ml50c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82_vp560")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83_lfkc4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84_o6f8t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85_fdddx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86_c0y8g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87_lt0th")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88_bc5sl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89_u7fwl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90_mwnxl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91_ui8kg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92_a6beb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93_hqti5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94_vjfky")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95_w1rdj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96_tl1bx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97_qh4c3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98_3d8wn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99_ygt1u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100_lb2st")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101_swkhr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102_ykscm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103_qt3ry")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104_iomr3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105_wnnh4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106_cafiw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107_munpa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108_qgd4x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109_wldua")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110_uspqx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111_8750s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112_d1ibe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113_j8wgu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114_mkaaq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115_xcw6s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116_hk4h6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117_vvqsb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118_dtsba")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119_jio7m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("120_7gmvk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("121_csmhu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("122_8yp1s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("123_6fr4n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("124_0mm05")
+}, {
+"duration": 1.0,
+"texture": ExtResource("125_no0do")
+}, {
+"duration": 1.0,
+"texture": ExtResource("126_tvxsa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("127_4gyeg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("128_5fuu1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("129_02k4e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("130_tu5qx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("131_ypvwv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("132_s6mgc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("133_7x4j3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("134_diug5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("135_3e3s0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("136_oqwfe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("137_uwq8l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("138_jdtri")
+}, {
+"duration": 1.0,
+"texture": ExtResource("139_iotn0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("140_j76sn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("141_ch1qh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("142_pl4ij")
+}, {
+"duration": 1.0,
+"texture": ExtResource("143_1pa60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("144_vdiak")
+}, {
+"duration": 1.0,
+"texture": ExtResource("145_pb17y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("146_tgrk7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("147_gbpbp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("148_8m0xu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("149_v84x7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("150_17phe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("151_6ht5w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("152_5vlcq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("153_h0mwt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("154_746p3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("155_0adtf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("156_sa8u8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("157_cqegb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("158_ckacx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("159_m2qob")
+}, {
+"duration": 1.0,
+"texture": ExtResource("160_54lva")
+}, {
+"duration": 1.0,
+"texture": ExtResource("161_5cs15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("162_0ieiu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("163_kgysa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("164_a3k1i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("165_xbyir")
+}, {
+"duration": 1.0,
+"texture": ExtResource("166_t4wfw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("167_s1ir4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("168_rr4jt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("169_0gyoy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("170_ny7uj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("171_f6rn2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("172_7vy5l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("173_7nfgp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("174_v3ijm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("175_u6m8v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("176_k4uyc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("177_xvu3n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("178_kfvu3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("179_j45m3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("180_k8pvq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("181_fi8mr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("182_1x6da")
+}, {
+"duration": 1.0,
+"texture": ExtResource("183_q2k84")
+}, {
+"duration": 1.0,
+"texture": ExtResource("184_8es7p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("185_kdtcb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("186_dsxce")
+}, {
+"duration": 1.0,
+"texture": ExtResource("187_3bpgv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("188_q78tn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("189_l0et3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("190_qw7xu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("191_0e11i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("192_2olnq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("193_k4xf1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("194_yidr2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("195_8ss7q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("196_8pp8o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("197_o4bba")
+}, {
+"duration": 1.0,
+"texture": ExtResource("198_p1t7x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("199_3qojf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("200_b1pjx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("201_b8bfm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("202_70eg5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("203_08sj8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("204_jjikl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("205_0c1jg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("206_ibv71")
+}, {
+"duration": 1.0,
+"texture": ExtResource("207_rk7wo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("208_xw7pt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("209_ybn6k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("210_j4cw6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("211_8gn0x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("212_qniuk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("213_5vgjh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("214_hv2wq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("215_5fukt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("216_looas")
+}, {
+"duration": 1.0,
+"texture": ExtResource("217_50v23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("218_1oi5j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("219_oam1i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("220_o8mqw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("221_487q2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("222_ugawh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("223_c07e4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("224_seost")
+}, {
+"duration": 1.0,
+"texture": ExtResource("225_ll3so")
+}, {
+"duration": 1.0,
+"texture": ExtResource("226_3usld")
+}, {
+"duration": 1.0,
+"texture": ExtResource("227_72vwu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("228_5lqp6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("229_y1x1w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("230_6py51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("231_u6tf2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("232_5v8sq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("233_1r1by")
+}, {
+"duration": 1.0,
+"texture": ExtResource("234_g5s67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("235_tegmj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("236_bsh2u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("237_ubqxn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("238_p7e1d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("239_xlhuw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("240_fp6j0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("241_g5b2x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("242_ty5fm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("243_edv3e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("244_g001d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("245_v3njx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("246_pyrpp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("247_ovw5t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("248_g0pbu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("249_krt1e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("250_epiob")
+}, {
+"duration": 1.0,
+"texture": ExtResource("251_b33li")
+}, {
+"duration": 1.0,
+"texture": ExtResource("252_u3jsj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("253_peqmp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("254_pft6r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("255_uks2e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("256_f5ole")
+}, {
+"duration": 1.0,
+"texture": ExtResource("257_wfwx0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("258_jiwd7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("259_6kljt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("260_h1ee6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("261_2ssbm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("262_h4ej6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("263_y5h6m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("264_xv3ru")
+}, {
+"duration": 1.0,
+"texture": ExtResource("265_6rr2t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("266_f2hq4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("267_qgjgj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("268_jp74d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("269_85j7x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("270_rm22p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("271_1u21b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("272_0r0l3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("273_a4gag")
+}, {
+"duration": 1.0,
+"texture": ExtResource("274_ehpra")
+}, {
+"duration": 1.0,
+"texture": ExtResource("275_3mk6k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("276_qxxlv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("277_1p35o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("278_sqtnq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("279_68bke")
+}, {
+"duration": 1.0,
+"texture": ExtResource("280_xwjee")
+}, {
+"duration": 1.0,
+"texture": ExtResource("281_0pxdw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("282_i8pfj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("283_l1tde")
+}, {
+"duration": 1.0,
+"texture": ExtResource("284_up177")
+}, {
+"duration": 1.0,
+"texture": ExtResource("285_wt1p1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("286_jdice")
+}, {
+"duration": 1.0,
+"texture": ExtResource("287_pm55x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("288_adthr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("289_mcij1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("290_bdtnu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("291_ugkay")
+}, {
+"duration": 1.0,
+"texture": ExtResource("292_unc6s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("293_g0htn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("294_ojdhp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("295_ssh3l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("296_kgri0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("297_ae05p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("298_kk2p3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("299_qahdw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("300_258vq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("301_cqmv8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("302_bdqf5")
+}],
+"loop": false,
+"name": &"death",
+"speed": 60.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("303_ff71s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("304_23w6p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("305_2s7rv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("306_iipdk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("307_e7rn7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("308_qtfex")
+}, {
+"duration": 1.0,
+"texture": ExtResource("309_gnn8d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("310_wr2ir")
+}, {
+"duration": 1.0,
+"texture": ExtResource("311_cx3vk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("312_vo5os")
+}, {
+"duration": 1.0,
+"texture": ExtResource("313_0q00w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("314_l4t44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("315_fowe8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("316_m4ywa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("317_28flk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("318_aefdi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("319_x0e8v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("320_i2s2u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("321_5f4xw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("322_vhm1b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("323_7ketq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("324_2ktai")
+}, {
+"duration": 1.0,
+"texture": ExtResource("325_lc5dj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("326_s8h7b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("327_011il")
+}, {
+"duration": 1.0,
+"texture": ExtResource("328_aeb6f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("329_0oaa8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("330_730lv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("331_mfrrc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("332_2fm1j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("333_vtsgm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("334_hunf8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("335_776sk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("336_j5eir")
+}, {
+"duration": 1.0,
+"texture": ExtResource("337_5ynxh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("338_q8k6i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("339_b25kt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("340_2tbpl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("341_edk2a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("342_45uua")
+}, {
+"duration": 1.0,
+"texture": ExtResource("343_7wt1i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("344_cuho7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("345_h0kyu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("346_8thsc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("347_v20kx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("348_r6dea")
+}, {
+"duration": 1.0,
+"texture": ExtResource("349_6qg6g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("350_elkk2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("351_0p62a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("352_yromf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("353_3bkou")
+}, {
+"duration": 1.0,
+"texture": ExtResource("354_8c1j2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("355_xnxmw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("356_kd6gl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("357_4l28s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("358_m02l1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("359_kpemc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("360_f6yqr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("361_bgjk1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("362_mnmb2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("363_02dbd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("364_uwx6k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("365_blabh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("366_7qj6p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("367_sqav0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("368_fq1wl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("369_jaft8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("370_f8m1o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("371_4isaq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("372_k5f26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("373_tpw08")
+}, {
+"duration": 1.0,
+"texture": ExtResource("374_n5cxl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("375_js7mr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("376_u8r5x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("377_lajg7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("378_iv0wh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("379_pksw8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("380_cd63d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("381_gbotv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("382_fddsl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("383_f22v5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("384_yxjni")
+}, {
+"duration": 1.0,
+"texture": ExtResource("385_ia1x3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("386_iukjm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("387_83u3g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("388_pjeeq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("389_cy7u3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("390_4gabi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("391_t43le")
+}, {
+"duration": 1.0,
+"texture": ExtResource("392_p71q2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("393_adejf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("394_f1fx7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("395_stf4e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("396_l35vp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("397_nj27v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("398_pshah")
+}, {
+"duration": 1.0,
+"texture": ExtResource("399_7vcpe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("400_shm4w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("401_5ytnb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("402_0wska")
+}, {
+"duration": 1.0,
+"texture": ExtResource("403_65gsb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("404_5j8du")
+}, {
+"duration": 1.0,
+"texture": ExtResource("405_dbvku")
+}, {
+"duration": 1.0,
+"texture": ExtResource("406_sodkp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("407_imr0t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("408_iuwi7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("409_rmdvx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("410_n4te3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("411_ehyak")
+}, {
+"duration": 1.0,
+"texture": ExtResource("412_8r7se")
+}, {
+"duration": 1.0,
+"texture": ExtResource("413_b4p3h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("414_i76l1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("415_ry25e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("416_sb3ik")
+}, {
+"duration": 1.0,
+"texture": ExtResource("417_p5anw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("418_fdgm8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("419_cawp4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("420_qnu35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("421_tk7a6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("422_3ifv8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("423_htc3l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("424_pgus4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("425_ye1xt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("426_17xw0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("427_50ibf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("428_ub24q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("429_37ljq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("430_rmmcl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("431_3cuwb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("432_ciyh2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("433_n2fea")
+}, {
+"duration": 1.0,
+"texture": ExtResource("434_mrxfl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("435_q6c65")
+}, {
+"duration": 1.0,
+"texture": ExtResource("436_27jtg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("437_u71tg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("438_h7552")
+}, {
+"duration": 1.0,
+"texture": ExtResource("439_n62ux")
+}, {
+"duration": 1.0,
+"texture": ExtResource("440_d04fv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("441_3eqgd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("442_hgeqp")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 60.0
+}]
+
+[sub_resource type="CircleShape2D" id="2"]
+radius = 34.0
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("1")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(540, 168)
+scale = Vector2(0.8559, 0.742204)
+sprite_frames = SubResource("SpriteFrames_cnu2h")
+animation = &"idle"
+autoplay = "idle"
+
+[node name="EncounterArea" type="Area2D" parent="."]
+position = Vector2(612, 104)
+collision_mask = 16
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="EncounterArea"]
+position = Vector2(-240, 88)
+shape = SubResource("2")
+
+[node name="StatusLabel" type="Label" parent="."]
+offset_left = 304.0
+offset_top = 120.0
+offset_right = 460.0
+offset_bottom = 148.0
+text = "Round Robin Enemy"
+horizontal_alignment = 1
